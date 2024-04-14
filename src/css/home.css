@@ -1,0 +1,32 @@
+@import './globals.css';
+
+.content_main {
+  background-image: url('../assets/images/background_home.jpg');
+  background-size: cover;
+}
+
+.title_content {
+  margin-top: 1.25rem;
+  width: 100%;
+  text-align: center;
+
+  h2 {
+    color: #ffffff;
+    font-size: 2.25rem;
+  }
+
+  p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .title_content h2 {
+    font-size: 1.75rem;
+  }
+
+  .title_content p {
+    font-size: 1rem;
+  }
+}

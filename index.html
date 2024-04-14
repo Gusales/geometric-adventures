@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aventureiros das Formas Proibidas</title>
+
+  <link rel="stylesheet" href="./src/css/home.css">
+  <link rel="shortcut icon" href="./src/assets/images/logo.png" type="image/png">
+</head>
+
+<body>
+  <aside>
+    <section class="player">
+      <img src="./src/assets/images/avatar-image.png" class="player_avatar">
+      <div class="player_info">
+        <p class="player_name">Player name</p>
+        <p class="player_email">player@email.com</p>
+      </div>
+    </section>
+
+    <nav class="app_navigation">
+      <ul>
+        <li class="app_link">
+          <div><img src="./src/assets/images/icons/square_icon.png" class="square_icon"></div>
+          <a href="./pages/square.html">Quadrado</a>
+        </li>
+        <li class="app_link">
+          <div>
+            <img src="./src/assets/images/icons/circle.svg" alt="" srcset="">
+          </div>
+          <a href="./pages/circle.html">Círculo</a>
+        </li>
+        <li class="app_link">
+          <div>
+            <img src="./src/assets/images/icons/rectangle.jpg" alt="" srcset="">
+          </div>
+          <a href="./pages/rectangle.html">Retângulo</a>
+        </li>
+        <li class="app_link">
+          <div><img src="./src/assets/images/icons/rhombohedron-icon.png"></div>
+          <a href="./pages/rhombohedron.html">Romboedro</a>
+        </li>
+        <li class="app_link">
+          <div><img src="./src/assets/images/icons/triangle-icon.png"></div>
+          <a href="./pages/triangle.html">Triângulo</a>
+        </li>
+      </ul>
+    </nav>
+
+    <a href="#" class="settings_link">
+      <img src="./src/assets/images/icons/settings-icons.png">
+      Configurações
+    </a>
+  </aside>
+
+  <main>
+    <header>
+      <h1 class="font-title">Aventureiros das Formas Proibidas</h1>
+      <section class="header_actions">
+        <button class="active">Jogar</button>
+        <button>Instalações</button>
+        <button>Skins</button>
+        <button>O que há de novo</button>
+      </section>
+    </header>
+
+    <section class="content_main">
+      <div class="title_content">
+        <h2 class="font-title">Poderia me ajudar a calcular a area de algumas formas?</h2>
+        <p class="font-title">Aperte em jogar e vamos nessa!</p>
+      </div>
+    </section>
+
+    <footer>
+      <button class="play_button" onclick="redirectTo()">
+        <span class="play_button_text font-title">Jogar</span>
+      </button>
+    </footer>
+  </main>
+
+  <script>
+    function redirectTo() {
+      window.location.href = "./pages/triangle/"
+    }
+  </script>
+</body>
+
+</html>
