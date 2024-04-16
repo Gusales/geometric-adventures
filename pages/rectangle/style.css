@@ -1,0 +1,5 @@
+@import url('../assets/globals.css');
+
+.content_image {
+  object-fit: cover;
+}
