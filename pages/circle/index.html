@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="triangle, area, calculate, calculo, area, triangulo" />
   <meta name="description" content="Pode-se calcular a área de um triângulo por aqui">
-  <title>Cálculo da área do quadrado</title>
+  <title>Cálculo da área do círculo</title>
 
   <link rel="stylesheet" href="../assets/globals.css">
   <link rel="shortcut icon" href="../../src/assets/images/logo.png" type="image/png">
@@ -25,14 +25,14 @@
     <nav class="app_navigation">
       <ul>
         <li class="app_link">
-          <div><img src="../../src/assets/images/square.jpg" class="square_icon"></div>
-          <a href="#">Quadrado</a>
+          <div><img src="../../src/assets/images/square.jpg"></div>
+          <a href="../square/">Quadrado</a>
         </li>
         <li class="app_link">
           <div>
             <img src="../../src/assets/images/icons/circle.svg" alt="" srcset="">
           </div>
-          <a href="../circle/index.html">Círculo</a>
+          <a href="#">Círculo</a>
         </li>
         <li class="app_link">
           <div>
@@ -46,7 +46,7 @@
         </li>
         <li class="app_link">
           <div><img src="../../src/assets/images/icons/triangle-icon.png"></div>
-          <a href="../triangle/index.html">Triângulo</a>
+          <a href="../triangle/">Triângulo</a>
         </li>
       </ul>
     </nav>
@@ -69,19 +69,18 @@
     </header>
 
     <section class="content_main">
-      <h2 class="font-title">Vamos calcular a area do quadrado?</h2>
+      <h2 class="font-title">Vamos calcular a area do circulo?</h2>
       <div class="content">
-        <img src="../../src/assets/images/square.jpg" class="content_image">
+        <img src="../../src/assets/images/icons/circle.svg" class="content_image">
 
         <div>
-          <p class="content_text">A área do quadrado é composto pela multiplicação de base com sua altura.
+          <p class="content_text">A área do círculo é composto pela multiplicação do quadrado do raio(distância entre o
+            centro e a borda) com o número de pi (aproximadamente 3.14).
           </p>
-          <p class="content_formula">área = b . h</p>
+          <p class="content_formula">área = π x r²</p>
           <div class="content_calc">
-            <label for="triangle_base">Base do quadrado</label>
-            <input type="number" id="triangle_base">
-            <label for="triangle_height">Altura do quadrado</label>
-            <input type="number" id="triangle_height">
+            <label for="ray">Tamanho do raio:</label>
+            <input type="number" id="ray">
           </div>
         </div>
       </div>
