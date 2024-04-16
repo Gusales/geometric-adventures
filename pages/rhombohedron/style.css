@@ -1,0 +1,10 @@
+@import url('../assets/globals.css');
+
+.content {
+  align-items: center;
+}
+
+.content_image {
+  height: fit-content;
+  width: 40%;
+}
